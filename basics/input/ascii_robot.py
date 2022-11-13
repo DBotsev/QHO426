@@ -1,0 +1,6 @@
+eye=input('Please enter the eye: ')
+nose=input('Enter nose: ')
+print('##############')
+print(f'##  {eye}    {eye}  ##')
+print(f'##     {nose}    ##')
+print(f'##############')
