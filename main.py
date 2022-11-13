@@ -1,2 +1,2 @@
 #import basics.input.data_types
-import basics.decisions.or_operator
+import basics.repetitions.while_loop.sum_user_numbers
