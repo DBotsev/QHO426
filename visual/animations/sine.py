@@ -20,5 +20,5 @@ def run():
                                             frames = 720, 
                                             interval = 100)
   plt.show()
-
+  
 run()
