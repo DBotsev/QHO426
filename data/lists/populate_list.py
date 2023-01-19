@@ -9,12 +9,13 @@ def menu():
   for index in range(len(locv)):
     print(f'{index+1} : {locv[index]}')
   user_response=int(input())
-  return user_response[index]
+  return user_response
 
 def run():
-  route=[]
+  #route=[]
   print("Working out escape route...")
-  for i in range(5):
-    route.append(menu)
-  print(f"Escape route: {route}")
+  a=menu()
+  #for i in range(5):
+    #route.append(menu())
+  print(f"Escape route: {a}")
 run()
