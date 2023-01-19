@@ -3,7 +3,7 @@ retrived=int(input())
 num=1
 total=0
 while num <= retrived:
-  print(f'Please enter number {num} of 4')
+  print(f'Please enter number {num} of {retrived}')
   num+=1
   n1=int(input())
   total=total+n1

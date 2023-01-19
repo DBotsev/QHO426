@@ -4,5 +4,5 @@ charged=1
 print()
 
 while charged<bars:
-  print(f"Charging: {charged * ' █'}")
+  print(f"Charging: {charged * ' █'}\n")
   charged+=1
